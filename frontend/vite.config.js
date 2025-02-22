@@ -12,7 +12,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['react-router-dom', 'react-toastify'], // Add more external dependencies here if needed
+      external: ['react-router-dom', 'react-toastify', 'axios'], // Add more external dependencies here if needed
     },
   },
 });
